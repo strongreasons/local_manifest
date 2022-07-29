@@ -8,6 +8,9 @@
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
 
+  <remote name="lavender-dump"
+          fetch="https://github.com/lavender-dump" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="komodo" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="strongreasons" revision="komodo" />
@@ -16,8 +19,10 @@
 
         <!-- Remove -->
         <remove-project name="bootable_recovery" />
+        <remove-project name="vendor_komodo" />
 
-        <!-- Fix recovery -->
+        <!-- Sync hals -->
         <project path="bootable/recovery" name="bootable_recovery" remote="Tiktodz" revision="12.1" />
+        <project path="vendor/komodo" name="vendor_komodo" remote="lavender-dump" revision="12.1" />
 
 </manifest>
