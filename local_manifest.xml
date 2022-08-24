@@ -4,11 +4,13 @@
 
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
+  <remote name="pkm774"
+          fetch="https://github.com/pkm774" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="elts" />
         <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="eLTS" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="CLO-r42" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pkm774" revision="master" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-Q" remote="Tiktodz" revision="eLTS" />
 
 </manifest>
