@@ -23,6 +23,9 @@
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" />
 
+        <!-- ih8sn -->
+        <project path="vendor/ih8sn" name="Terminator-J/vendor_ih8sn" remote="github" revision="12.1-test" />
+
         <!-- Fwb -->
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="arrow-13.0" />
