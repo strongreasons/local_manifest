@@ -18,8 +18,8 @@
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_display" />
         <project path="hardware/qcom-caf/msm8998/audio" name="wizardprjkt/hardware_qcom-caf_msm8998_audio" remote="github" revision="13x" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="wizardprjkt/hardware_qcom-caf_msm8998_media" remote="github" revision="13x" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="wizardprjkt/hardware_qcom-caf_msm8998_display" remote="github" revision="13x" />
+        <project path="hardware/qcom-caf/msm8998/media" name="wizardprjkt/hardware_qcom-caf_msm8998_media" remote="github" revision="13x" />
+        <project path="hardware/qcom-caf/msm8998/display" name="wizardprjkt/hardware_qcom-caf_msm8998_display" remote="github" revision="13x" />
 
         <!-- Prebuilt Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
