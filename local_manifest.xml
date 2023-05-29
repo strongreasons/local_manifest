@@ -34,7 +34,7 @@
 
         <!-- Frameworks -->
         <remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="Kneba" revision="lineage-17.1" />
+        <project path="frameworks/base" name="los_frameworks_base" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Frameworks native -->
         <remove-project name="LineageOS/android_frameworks_native" />
