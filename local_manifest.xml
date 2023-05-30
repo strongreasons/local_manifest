@@ -30,7 +30,7 @@
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="Kneba" revision="lineage-17.1" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Frameworks -->
         <remove-project name="LineageOS/android_frameworks_base" />
