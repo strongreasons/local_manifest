@@ -49,7 +49,7 @@
         <project path="lineage-sdk" name="android_lineage-sdk" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- LineageParts -->
-        <remove-project name="LineageOS/android_packages_LineageParts" />
-        <project path="packages/LineageParts" name="android_packages_LineageParts" remote="strongreasons" revision="lineage-17.1" />
+        <remove-project name="LineageOS/android_packages_apps_LineageParts" />
+        <project path="packages/apps/LineageParts" name="android_packages_LineageParts" remote="strongreasons" revision="lineage-17.1" />
 
 </manifest>
