@@ -50,6 +50,6 @@
 
         <!-- LineageParts -->
         <remove-project name="LineageOS/android_packages_apps_LineageParts" />
-        <project path="packages/apps/LineageParts" name="android_packages_LineageParts" remote="strongreasons" revision="lineage-17.1" />
+        <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="strongreasons" revision="lineage-17.1" />
 
 </manifest>
