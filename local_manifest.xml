@@ -46,6 +46,6 @@
 
         <!-- sdk -->
         <remove-project name="LineageOS/android_lineage-sdk" />
-        <project path="lineage-sdk" name="android_lineage-sdk" remote="Kneba" revision="lineage-17.1" />
+        <project path="lineage-sdk" name="android_lineage-sdk" remote="strongreasons" revision="lineage-17.1" />
         
 </manifest>
