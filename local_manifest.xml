@@ -9,8 +9,8 @@
           fetch="https://github.com/strongreasons" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="17.1" />
-        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="ten" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="rr" />
+        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
         <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="clo-hmp" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
 
