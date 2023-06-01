@@ -2,13 +2,21 @@
 
 <manifest>
 
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
+
+  <remote name="strongreasons"
+          fetch="https://github.com/strongreasons" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="17.1" />
-        <project path="vendor/asus" name="vendor_asus" remote="Tiktodz" revision="eLTS" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="CLO-r42" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common-Q" remote="Tiktodz" revision="zenparts" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="17.1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="Kneba" revision="ten" />
+        <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="clo-hmp" />
+        <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
+
+        <remove-project name="android_device_qcom_sepolicy-legacy" />
+        <remove-project name="android_device_qcom_sepolicy-legacy-um" />
+        <remove-project name="android_vendor_resurrection" />
+        <project path="vendor/rr" name="android_vendor_resurrection" remote="strongreasons" revision="Q" />
 
 </manifest>
