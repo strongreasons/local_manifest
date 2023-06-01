@@ -14,9 +14,11 @@
         <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="clo-hmp" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
 
-        <remove-project name="android_device_qcom_sepolicy-legacy" />
+        <remove-project name="android_device_qcom_sepolicy" />
         <remove-project name="android_device_qcom_sepolicy-legacy-um" />
         <remove-project name="android_vendor_resurrection" />
+        <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="strongreasons" revision="Q" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="strongreasons" revision="Q" />
         <project path="vendor/rr" name="android_vendor_resurrection" remote="strongreasons" revision="Q" />
 
 </manifest>
