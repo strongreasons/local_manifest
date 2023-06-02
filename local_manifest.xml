@@ -34,4 +34,8 @@
         <project path="vendor/rr" name="android_vendor_resurrection" remote="strongreasons" revision="Q" />
         <project path="frameworks/base" name="rr_frameworks_base" remote="strongreasons" revision="Q" />
 
+        <!-- Audio -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Kneba" revision="lineage-17.1-caf-msm8998" />
+
 </manifest>
