@@ -11,6 +11,9 @@
         <remote name="strongreasons"
         fetch="https://github.com/strongreasons" />
 
+        <remote name="MoKee"
+        fetch="https://github.com/MoKee" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="10" />
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
@@ -44,9 +47,8 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Kneba" revision="lineage-17.1-caf-msm8998" />
 
-        <!-- sdk -->
-        <!--/remove-project name="LineageOS/android_lineage-sdk" />
-        <project path="lineage-sdk" name="android_lineage-sdk" remote="strongreasons" revision="lineage-17.1" /-->
+        <!-- Lottie -->
+        <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="MoKee" revision="mkq" />
 
         <!-- LineageParts -->
         <!-- remove-project name="LineageOS/android_packages_apps_LineageParts" />
