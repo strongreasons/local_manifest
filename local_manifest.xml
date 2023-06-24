@@ -14,7 +14,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="Kneba" revision="10" />
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
-        <project path="kernel/asus/sdm660" name="Kernel_asus_sdm660" remote="Tiktodz" revision="base" />
+        <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
 
         <remove-project name="LineageOS/android_build" />
@@ -29,20 +29,20 @@
         </project>
 
         <!-- Settings -->
-        <!-- remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="strongreasons" revision="lineage-17.1" /-->
+        <remove-project name="LineageOS/android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Frameworks base -->
-        <!-- remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="lineage-17.1" /-->
+        <remove-project name="LineageOS/android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Frameworks native -->
-        <!-- remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" /-->
+        <remove-project name="LineageOS/android_frameworks_native" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" />
 
         <!-- Audio -->
-        <!-- remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Kneba" revision="lineage-17.1-caf-msm8998" /-->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="ten" />
 
         <!-- sdk -->
         <!--/remove-project name="LineageOS/android_lineage-sdk" />
