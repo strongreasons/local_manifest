@@ -11,7 +11,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="rr" />
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
-        <project path="kernel/asus/sdm660" name="platform_kernel_asus_sdm660" remote="Kneba" revision="clo-hmp" />
+        <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
         <project path="device/asus/sdm660-common" name="platform_device_asus_sdm660-common" remote="Kneba" revision="ten" />
 
         <remove-project name="android_build" />
