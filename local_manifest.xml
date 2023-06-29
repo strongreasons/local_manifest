@@ -20,9 +20,9 @@
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="strongreasons" revision="13" />
 
         <!-- HALs -->
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="x" />
@@ -31,7 +31,7 @@
         <!-- project path="vendor/ih8sn" name="Terminator-J/vendor_ih8sn" remote="github" revision="12.1-test" /-->
 
         <!-- Fwb -->
-        <remove-project name="android_frameworks_base" />
+        <remove-project name="crdroidandroid/android_frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" />
 
         <!-- Prebuilt Clang -->
