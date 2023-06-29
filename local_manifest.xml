@@ -6,31 +6,39 @@
           fetch="https://github.com/strongreasons" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <!-- remote name="wizardprjkt"
-          fetch="https://github.com/wizardprjkt" /-->
+  <remote name="wizardprjkt"
+          fetch="https://github.com/wizardprjkt" />
+  <remote name="HoleDroid"
+          fetch="https://github.com/HoleDroid" />
+  <remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="13" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="13" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="thirteen" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="caf-hmp" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="strongreasons" revision="13" />
 
         <!-- HALs -->
-        <!-- remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_audio" />
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="x" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="wizardprjkt" revision="13x" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="wizardprjkt" revision="13x" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="13x" /-->
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="wizardprjkt" revision="x" />
 
         <!-- ih8sn -->
         <!-- project path="vendor/ih8sn" name="Terminator-J/vendor_ih8sn" remote="github" revision="12.1-test" /-->
 
         <!-- Fwb -->
-        <!-- remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="arrow-13.0" /-->
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" />
 
         <!-- Prebuilt Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="gitlab" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+
+        <!-- Power -->
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="HoleDroid" revision="lineage-20.0" />
 
 </manifest>
