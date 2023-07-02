@@ -8,16 +8,14 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="wizardprjkt"
           fetch="https://github.com/wizardprjkt" />
-  <remote name="HoleDroid"
-          fetch="https://github.com/HoleDroid" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="13" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="13" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="caf-hmp" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common-1" remote="strongreasons" revision="13" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="arrow" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="caf-eas" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="eas" />
 
         <!-- HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -39,6 +37,6 @@
 
         <!-- Power -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="HoleDroid" revision="lineage-20.0" />
+        <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="wizardprjkt" revision="13" />
 
 </manifest>
