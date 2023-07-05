@@ -6,8 +6,8 @@
           fetch="https://github.com/strongreasons" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
-  <!-- remote name="wizardprjkt"
-          fetch="https://github.com/wizardprjkt" /-->
+  <remote name="HoleDroid"
+          fetch="https://github.com/HoleDroid" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
 
@@ -34,6 +34,6 @@
 
         <!-- Power -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-        <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="wizardprjkt" revision="13" />
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="HoleDroid" revision="lineage-20.0" />
 
 </manifest>
