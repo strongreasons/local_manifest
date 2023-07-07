@@ -8,12 +8,12 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="HoleDroid"
           fetch="https://github.com/HoleDroid" />
-  <!--remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" /-->
-  <remote name="kdrag0n"
-          fetch="https://github.com/kdrag0n" />
-  <remote name="Octavi"
-          fetch="https://github.com/Octavi-Staging" />
+  <remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" />
+  <!-- remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" /-->
+  <!-- remote name="Octavi"
+          fetch="https://github.com/Octavi-Staging" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="crd" />
@@ -25,19 +25,19 @@
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <remove-project name="crdroidandroid/android_external_faceunlock" />
+        <!-- remove-project name="crdroidandroid/android_external_faceunlock" /-->
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="13" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="13" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="crdroid" />
-        <project path="external/faceunlock" name="android_external_faceunlock" remote="Octavi" revision="thirteen" />
+        <!-- project path="external/faceunlock" name="android_external_faceunlock" remote="Octavi" revision="thirteen" /-->
 
         <!-- Fwb -->
         <remove-project name="crdroidandroid/android_frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" />
 
-        <!-- Prebuilt Clang -->
-        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+        <!-- Toolchain Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" /-->
 
         <!-- Power -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
