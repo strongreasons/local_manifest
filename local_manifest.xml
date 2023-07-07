@@ -8,8 +8,10 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="HoleDroid"
           fetch="https://github.com/HoleDroid" />
-  <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
+  <!--remote name="ImSurajxD"
+          fetch="https://gitlab.com/ImSurajxD" /-->
+  <remote name="kdrag0n"
+          fetch="https://github.com/kdrag0n" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="crd" />
@@ -30,7 +32,8 @@
         <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" />
 
         <!-- Prebuilt Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
+        <!-- project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" /-->
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
 
         <!-- Power -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
