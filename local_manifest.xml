@@ -8,13 +8,10 @@
   <remote name="strongreasons"
           fetch="https://github.com/strongreasons" />
 
-  <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="rr" />
         <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="10" />
-        <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm636" remote="Tiktodz" revision="caf-hmp" />
+        <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
         <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="10" />
 
         <remove-project name="android_build" />
@@ -41,6 +38,6 @@
 
         <!-- Audio -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Kneba" revision="lineage-17.1-caf-msm8998" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="strongreasons" revision="10" />
 
 </manifest>
