@@ -12,7 +12,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="rising" />
         <project path="vendor/asus" name="android_vendor_asus" remote="strongreasons" revision="13" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="hmp" />
 
         <!-- HALs -->
