@@ -14,8 +14,8 @@
      <remote name="str"
      fetch="https://github.com/strongreasons" />
   
-     <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" />
+     <!-- remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
+     <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" /-->
      
      <!-- Trees -->
      <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="str" revision="13" />
