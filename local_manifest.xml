@@ -13,9 +13,9 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="staging/blaze" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="staging/blaze" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="afterlife" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="staging/blaze-eas" />
 
         <!-- HALs -->
         <!-- remove-project name="android_hardware_qcom_audio" />
@@ -33,7 +33,10 @@
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
         <!-- Power -->
-        <remove-project name="vendor_qcom_opensource_power" />
-        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
+        <!-- remove-project name="vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" /-->
 
+        <remove-project name="hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom_wlan" />
+  
 </manifest>
