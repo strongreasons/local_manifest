@@ -12,7 +12,7 @@
           fetch="https://github.com/ProjectBlaze-Devices" /-->
   <remote name="Nusantara"
           fetch="https://github.com/Nusantara-ROM" />
-  <remote name="lineage"
+  <remote name="los"
           fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
@@ -43,6 +43,6 @@
         <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="Nusantara" revision="13" />
-        <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" revision="lineage-19.1" />
+        <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-19.1" />
 
 </manifest>
