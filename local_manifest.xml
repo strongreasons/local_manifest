@@ -10,10 +10,10 @@
           fetch="https://gitlab.com/ImSurajxD" />
   <!-- remote name="ProjectBlaze"
           fetch="https://github.com/ProjectBlaze-Devices" /-->
-  <remote name="Nusantara"
-          fetch="https://github.com/Nusantara-ROM" />
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
+  <remote name="panah"
+          fetch="https://github.com/ArrowOS" />
+  <remote name="alp"
+          fetch="https://github.com/AfterLifePrjkt13" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
@@ -42,7 +42,7 @@
 
         <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_hardware_qcom_wlan" />
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="Nusantara" revision="13" />
-        <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-19.1" />
+        <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="alp" revision="13x" />
+        <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="panah" revision="arrow-13.1" />
 
 </manifest>
