@@ -15,7 +15,7 @@
         fetch="https://github.com/SagarMakhar" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="los" revision="lineage-16.0" />
+        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="pie" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="SagarMakhar" revision="lineage-16.0" />
         <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
 
@@ -29,6 +29,10 @@
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
         </project>
+
+        <!-- Audio -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="pie" />
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
