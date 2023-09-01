@@ -31,8 +31,8 @@
         </project>
 
         <!-- Audio -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="pie" />
+        <!-- remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom/audio-caf/msm8998" name="hardware_qcom-caf_msm8998_audio" remote="Tiktodz" revision="pie" /-->
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
