@@ -15,7 +15,7 @@
         fetch="https://github.com/SagarMakhar" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="android_device_asus_X00TD" remote="Tiktodz" revision="pie" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="pie" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="SagarMakhar" revision="lineage-16.0" />
         <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
 
