@@ -15,8 +15,8 @@
         fetch="https://github.com/MoKee" /-->
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="platform_device_asus_X00TD" remote="strongreasons" revision="17.1" />
-        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="10" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="17.1" />
+        <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="17.1" />
         <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="ten" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="17.1" />
 
