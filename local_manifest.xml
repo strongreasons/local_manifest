@@ -18,7 +18,7 @@
         fetch="https://github.com/travarilo" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="pie" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="pie" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="SagarMakhar" revision="lineage-16.0" />
         <project path="kernel/asus/sdm660" name="Kernel_asus_sdm660" remote="travarilo" revision="master" />
 
