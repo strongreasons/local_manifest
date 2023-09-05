@@ -36,7 +36,7 @@
         <!-- remove-project name="vendor_qcom_opensource_power" />
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" /-->
 
-        <!--remove-project name="vendor_qcom_opensource_display-commonsys" />
+        <!-- remove-project name="vendor_qcom_opensource_display-commonsys" />
         <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
         <remove-project name="vendor_qcom_opensource_display" />
         <project path="vendor/qcom/opensource/commonsys/display" name="hardware_qcom-caf_wlan" remote="los" revision="13x" />
