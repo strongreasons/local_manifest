@@ -8,26 +8,22 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
-  <!-- remote name="ProjectBlaze"
-          fetch="https://github.com/ProjectBlaze-Devices" /-->
-  <remote name="los"
-          fetch="https://github.com/LineageOS" />
-  <remote name="alp"
-          fetch="https://github.com/AfterLifePrjkt13" />
+  <remote name="ProjectBlaze"
+          fetch="https://github.com/ProjectBlaze-Devices" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="13-eas" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="ProjectBlaze" revision="eas" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="strongreasons" revision="13-eas" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="ProjectBlaze" revision="eas" />
 
         <!-- HALs -->
-        <remove-project name="hardware_qcom_audio" />
+        <!-- remove-project name="hardware_qcom_audio" />
         <remove-project name="hardware_qcom_media" />
         <remove-project name="hardware_qcom_display" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="strongreasons" revision="13" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="13" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" /-->
 
         <!-- Fwb -->
         <!-- remove-project name="frameworks_base" />
@@ -40,11 +36,11 @@
         <!-- remove-project name="vendor_qcom_opensource_power" />
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" /-->
 
-        <remove-project name="vendor_qcom_opensource_display-commonsys" />
+        <!--remove-project name="vendor_qcom_opensource_display-commonsys" />
         <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
         <remove-project name="vendor_qcom_opensource_display" />
         <project path="vendor/qcom/opensource/commonsys/display" name="hardware_qcom-caf_wlan" remote="los" revision="13x" />
         <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_hardware_qcom_wlan" remote="los" revision="arrow-13.1" />
-        <project path="vendor/qcom/opensource/display" name="android_hardware_qcom_wlan" remote="los" revision="arrow-13.1" />
+        <project path="vendor/qcom/opensource/display" name="android_hardware_qcom_wlan" remote="los" revision="arrow-13.1" /-->
 
 </manifest>
