@@ -10,10 +10,10 @@
           fetch="https://gitlab.com/ImSurajxD" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="crd" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="spark" />
         <project path="vendor/asus" name="android_vendor_asus" remote="strongreasons" revision="13" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
-        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="hmp" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="spark" />
 
         <!-- HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -21,11 +21,11 @@
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="strongreasons" revision="13" />
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="13" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="crdroid" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
 
         <!-- Fwb -->
-        <remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" />
+        <!-- remove-project name="crdroidandroid/android_frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" /-->
 
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
