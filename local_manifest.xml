@@ -27,6 +27,10 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="spark_frameworks_base" remote="strongreasons" revision="pyro-next" />
 
+        <!-- Settings -->
+        <remove-project name="packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="strongreasons" revision="pyro-next" />
+  
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
