@@ -24,8 +24,8 @@
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
 
         <!-- Fwb -->
-        <!-- remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" /-->
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="spark_frameworks_base" remote="strongreasons" revision="pyro-next" />
 
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
