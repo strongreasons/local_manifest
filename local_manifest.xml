@@ -8,6 +8,8 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="loss"
+          fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="banana" />
@@ -23,6 +25,10 @@
         <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="13" />
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
 
+        <!-- Chromium -->
+        <remove-project name="android_external_chromium-webview_prebuilt_arm64" />
+        <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="loss" revision="backup/main_20230314" />
+  
         <!-- Fwb -->
         <!-- remove-project name="crdroidandroid/android_frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" /-->
