@@ -34,4 +34,8 @@
         <remove-project name="android_vendor_qcom_opensource_power" />
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
+        <!-- Vendor -->
+        <remove-project name="android_vendor_banana" />
+        <project path="vendor/banana" name="android_vendor_banana" remote="Tiktodz" revision="13" />
+
 </manifest>
