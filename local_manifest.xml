@@ -40,8 +40,8 @@
         <project path="frameworks/base" name="android_frameworks_base" remote="strongreasons" revision="lineage-17.1" />
 
         <!-- Frameworks native -->
-        <remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" />
+        <!-- remove-project name="LineageOS/android_frameworks_native" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" /-->
 
         <!-- Audio -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
