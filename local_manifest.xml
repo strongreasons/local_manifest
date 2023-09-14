@@ -2,8 +2,8 @@
 
 <manifest>
 
-        <!-- remote name="aslenofarid"
-        fetch="https://github.com/aslenofarid" /-->
+        <remote name="znieb"
+        fetch="https://github.com/znieb" />
 
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
@@ -20,7 +20,7 @@
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="pie" />
         <project path="vendor/asus" name="proprietary_vendor_asus" remote="SagarMakhar" revision="lineage-16.0" />
-        <project path="kernel/asus/sdm660" name="android_Kernel_asus_sdm660" remote="strongreasons" revision="zen" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm636" remote="znieb" revision="10-caf" />
 
         <remove-project name="LineageOS/android_build" />
         <project path="build/make" name="android_build" remote="Kneba" revision="lineage-16.0" groups="pdk" >
