@@ -2,9 +2,6 @@
 
 <manifest>
 
-        <remote name="znieb"
-        fetch="https://github.com/znieb" />
-
         <remote name="Kneba"
         fetch="https://github.com/Kneba" />
 
