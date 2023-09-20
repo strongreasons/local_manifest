@@ -43,7 +43,7 @@
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
         <!-- Vendor -->
-        <remove-project name="vendor_blaze" />
-        <project path="vendor/blaze" name="vendor_blaze" remote="strongreasons" revision="13" />
+        <!-- remove-project name="vendor_blaze" />
+        <project path="vendor/blaze" name="vendor_blaze" remote="strongreasons" revision="13" /-->
 
 </manifest>
