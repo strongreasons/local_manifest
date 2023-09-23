@@ -17,7 +17,7 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="aosp" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="blaze" />
+        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="aosp" />
 
         <!-- msm8998 HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
@@ -35,6 +35,10 @@
         <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="los" revision="lineage-20.0" />
         <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="los" revision="lineage-20.0" /-->
 
+        <!-- Frameworks -->
+        <remove-project name="frameworks_base" />
+        <project path="vendor/qcom/opensource/power" name="pos_frameworks_base" remote="strongreasons" revision="thirteen" />
+
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
@@ -42,8 +46,8 @@
         <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
-        <!-- Vendor -->
-        <!-- remove-project name="vendor_blaze" />
-        <project path="vendor/blaze" name="vendor_blaze" remote="strongreasons" revision="13" /-->
+        <!-- Settings -->
+        <remove-project name="packages_apps_Settings" />
+        <project path="vendor/qcom/opensource/power" name="pos_packages_apps_Settings" remote="strongreasons" revision="thirteen" />
 
 </manifest>
