@@ -37,7 +37,7 @@
 
         <!-- Frameworks -->
         <remove-project name="frameworks_base" />
-        <project path="vendor/qcom/opensource/power" name="pos_frameworks_base" remote="strongreasons" revision="thirteen" />
+        <project path="frameworks/base" name="pos_frameworks_base" remote="strongreasons" revision="thirteen" />
 
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
@@ -48,6 +48,6 @@
 
         <!-- Settings -->
         <remove-project name="packages_apps_Settings" />
-        <project path="vendor/qcom/opensource/power" name="pos_packages_apps_Settings" remote="strongreasons" revision="thirteen" />
+        <project path="packages/apps/Settings" name="pos_packages_apps_Settings" remote="strongreasons" revision="thirteen" />
 
 </manifest>
