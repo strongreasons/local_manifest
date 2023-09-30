@@ -24,12 +24,12 @@
         <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
 
         <!-- Fwb -->
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="spark_frameworks_base" remote="strongreasons" revision="pyro-next" />
+        <!-- remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="spark_frameworks_base" remote="strongreasons" revision="pyro-next" /-->
 
         <!-- Settings -->
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="strongreasons" revision="pyro-next" />
+        <!-- remove-project name="packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="strongreasons" revision="pyro-next" /-->
   
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
