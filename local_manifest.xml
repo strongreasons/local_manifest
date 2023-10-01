@@ -39,15 +39,15 @@
         <remove-project name="frameworks_native" />
         <project path="frameworks/native" name="frameworks_native" remote="strongreasons" revision="13" />
 
-        <!-- Toolchain Clang -->
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
-
         <!-- Power -->
         <remove-project name="android_vendor_qcom_opensource_power" />
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
-        <!-- Vendor -->
-        <!-- remove-project name="vendor_blaze" />
-        <project path="vendor/blaze" name="vendor_blaze" remote="strongreasons" revision="13" /-->
+        <!-- Themes -->
+        <remove-project name="packages_overlays_Themes" />
+        <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="Tiktodz" revision="13" />
+
+        <!-- Toolchain Clang -->
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
 </manifest>
