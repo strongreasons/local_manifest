@@ -10,7 +10,9 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
-
+  <remote name="los"
+          fetch="https://github.com/LineageOS" />
+  
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="crd" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
@@ -37,6 +39,6 @@
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
         <remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64" />
-        <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="lineage" revision="backup/main_20230314" />
+        <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="los" revision="backup/main_20230314" />
   
 </manifest>
