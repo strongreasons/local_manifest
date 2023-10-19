@@ -2,8 +2,8 @@
 
 <manifest>
 
-        <remote name="Kneba"
-        fetch="https://github.com/Kneba" />
+        <!-- remote name="Kneba"
+        fetch="https://github.com/Kneba" /-->
 
         <remote name="Tiktodz"
         fetch="https://github.com/Tiktodz" />
@@ -11,8 +11,8 @@
         <remote name="strongreasons"
         fetch="https://github.com/strongreasons" />
 
-        <remote name="asle"
-        fetch="https://github.com/aslenofarid" />
+        <!-- remote name="asle"
+        fetch="https://github.com/aslenofarid" /-->
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="17.1" />
