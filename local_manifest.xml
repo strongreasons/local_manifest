@@ -14,7 +14,7 @@
           fetch="https://github.com/LineageOS" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="blz" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="eas" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
         <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="eas1" />
