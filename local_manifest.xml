@@ -8,8 +8,8 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="ProjectBlaze"
-          fetch="https://github.com/ProjectBlaze-Devices" />
+  <remote name="Kendras056"
+          fetch="https://github.com/Kendras056" />
   <remote name="los"
           fetch="https://github.com/LineageOS" />
 
@@ -17,15 +17,15 @@
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="Tiktodz" revision="blaze" />
         <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="blaze" />
+        <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="loud" />
 
         <!-- msm8998 HALs -->
         <remove-project name="hardware_qcom_audio" />
         <remove-project name="hardware_qcom_media" />
         <remove-project name="hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="strongreasons" revision="13" />
-        <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="Tiktodz" revision="13" />
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="Tiktodz" revision="13" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="Tiktodz" revision="14" />
+        <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media" remote="Kendras056" revision="13" />
+        <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" remote="Kendras056" revision="13" />
 
         <!-- Display HALs -->
         <remove-project name="vendor_qcom_opensource_display-commonsys" />
@@ -44,8 +44,8 @@
         <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
         <!-- Themes -->
-        <remove-project name="packages_overlays_Themes" />
-        <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="Tiktodz" revision="13" />
+        <!-- remove-project name="packages_overlays_Themes" />
+        <project path="packages/overlays/Themes" name="packages_overlays_Themes" remote="Tiktodz" revision="13" /-->
 
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
