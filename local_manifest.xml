@@ -50,7 +50,7 @@
 
         <!-- Sepolicy -->
         <remove-project name="LineageOS/android_device_lineage_sepolicy" />
-        <project path="packages/apps/Settings" name="strongreasons/android_device_lineage_sepolicy" remote="github" revision="lineage-17.1" />
+        <project path="device/lineage/sepolicy" name="strongreasons/android_device_lineage_sepolicy" remote="github" revision="lineage-17.1" />
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
