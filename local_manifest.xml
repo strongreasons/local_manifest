@@ -19,8 +19,8 @@
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
         <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="eas1" />
 
-        <remove-project name="packages_modules_Connectivity" />
-        <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="los" revision="lineage-20.0" />
+        <!-- remove-project name="packages_modules_Connectivity" />
+        <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="los" revision="lineage-20.0" /-->
 
         <!-- msm8998 HALs -->
         <remove-project name="hardware_qcom_audio" />
