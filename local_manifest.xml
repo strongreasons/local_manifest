@@ -14,6 +14,9 @@
         <!-- remote name="asle"
         fetch="https://github.com/aslenofarid" /-->
 
+        <remote name="gitlab"
+        fetch="https://gitlab.com" />
+
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="strongreasons/device_asus_X00TD" remote="github" revision="17.1" />
         <project path="vendor/asus" name="strongreasons/vendor_asus" remote="github" revision="17.1" />
