@@ -15,7 +15,7 @@
         fetch="https://github.com/aslenofarid" /-->
 
         <remote name="gitlab"
-        fetch="https://gitlab.com" />
+        fetch="https://gitlab.com/rr-os" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="strongreasons/device_asus_X00TD" remote="github" revision="17.1" />
@@ -39,7 +39,7 @@
         <project path="hardware/qcom-caf/msm8998/audio" name="strongreasons/hardware_qcom-caf_msm8998_audio" remote="github" revision="ten" />
 
         <!-- FaceUnlock -->
-        <project path="external/motorola/faceunlock" name="rr-os/external_utils" remote="gitlab" revision="Q" />
+        <project path="external/motorola/faceunlock" name="external_utils" remote="gitlab" revision="Q" />
 
         <!-- Frameworks base -->
         <remove-project name="LineageOS/android_frameworks_base" />
