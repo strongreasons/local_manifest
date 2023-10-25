@@ -31,27 +31,27 @@
         <linkfile src="tools" dest="build/tools" />
         </project>
 
-        <!-- Settings -->
-        <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
+        <!-- Audio -->
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <project path="hardware/qcom-caf/msm8998/audio" name="strongreasons/hardware_qcom-caf_msm8998_audio" remote="github" revision="ten" />
+
+        <!-- FaceUnlock -->
+        <project path="external/motorola/faceunlock" name="rr-os/external_utils" remote="gitlab" revision="Q" />
 
         <!-- Frameworks base -->
         <remove-project name="LineageOS/android_frameworks_base" />
         <project path="frameworks/base" name="strongreasons/android_frameworks_base" remote="github" revision="lineage-17.1" />
 
-        <!-- Frameworks native -->
-        <!-- remove-project name="LineageOS/android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="Kneba" revision="lineage-17.1" /-->
+        <!-- Sepolicy -->
+        <remove-project name="LineageOS/android_device_lineage_sepolicy" />
+        <project path="packages/apps/Settings" name="strongreasons/android_device_lineage_sepolicy" remote="github" revision="lineage-17.1" />
 
-        <!-- Audio -->
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="strongreasons/hardware_qcom-caf_msm8998_audio" remote="github" revision="ten" />
+        <!-- Settings -->
+        <remove-project name="LineageOS/android_packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
 
-        <!-- Lottie -->
-        <!-- project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="MoKee" revision="mkq" /-->
-
-        <!-- LineageParts -->
-        <!-- remove-project name="LineageOS/android_packages_apps_LineageParts" />
-        <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="strongreasons" revision="lineage-17.1" /-->
+        <!-- Vendor -->
+        <remove-project name="LineageOS/android_vendor_lineage" />
+        <project path="vendor/lineage" name="strongreasons/android_vendor_lineage" remote="github" revision="10" />
 
 </manifest>
