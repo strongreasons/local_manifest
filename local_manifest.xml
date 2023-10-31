@@ -9,8 +9,8 @@
      fetch="https://github.com/Tiktodz" />
      <!-- remote name="clang"
      fetch="https://github.com/kdrag0n" /-->
-     <remote name="dn"
-     fetch="https://gitlab.com/hkprojection1" />
+     <remote name="crdroidandroid"
+     fetch="https://gitlab.com/crdroidandroid" />
      <remote name="str"
      fetch="https://github.com/strongreasons" />
   
@@ -24,6 +24,6 @@
      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revisioion="14" />
 
      <!-- Clang -->
-     <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" /-->
+    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" revision="13.0" remote="crdroid" />
 
 </manifest>
