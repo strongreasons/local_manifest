@@ -6,8 +6,8 @@
      <remote name="Tiktodz"
      fetch="https://github.com/Tiktodz" />
 
-     <!-- remote name="crdroid"
-     fetch="https://gitlab.com/crdroidandroid" /-->
+     <remote name="dog"
+     fetch="https://gitlab.com/dogpoopy" />
 
      <remote name="str"
      fetch="https://github.com/strongreasons" />
@@ -22,6 +22,9 @@
      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revisioion="14" />
 
      <!-- Clang -->
-     <!-- project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" revision="13.0" remote="crdroid" /-->
+     <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
+          name="clang-r498229b"
+          remote="dog"
+          revision="13.0" />
 
 </manifest>
