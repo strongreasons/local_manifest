@@ -16,7 +16,7 @@
      <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" /-->
      
      <!-- Trees -->
-     <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="14" />
+     <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="udc" />
      <project path="vendor/asus" name="vendor_asus" remote="str" revision="14" />
      <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="14" />
      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="14" />
