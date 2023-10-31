@@ -3,12 +3,12 @@
 <manifest>
 
      <!-- Remote -->
-     <remote name="me"
-     fetch="https://github.com/Wrdn28" />
-     <remote name="zain"
-     fetch="https://github.com/Assunzain" />
-     <remote name="clang"
-     fetch="https://github.com/kdrag0n" />
+     <remote name="TheMuppets"
+     fetch="https://github.com/TheMuppets" />
+     <remote name="Tiktodz"
+     fetch="https://github.com/Tiktodz" />
+     <!-- remote name="clang"
+     fetch="https://github.com/kdrag0n" /-->
      <remote name="dn"
      fetch="https://gitlab.com/hkprojection1" />
      <remote name="str"
@@ -18,11 +18,12 @@
      <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" remote="dn" revision="master" /-->
      
      <!-- Trees -->
-     <project path="device/asus/X01AD" name="android_device_asus_X01AD" remote="str" revision="13" />
-     <project path="vendor/asus/X01AD" name="android_vendor_asus_X01AD" remote="me" revision="A13" />
-     <project path="kernel/asus/X01AD" name="Kernel_asus_X01AD" remote="zain" revision="GLKernelSU-non-oc" />
-     
+     <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="14" />
+     <project path="vendor/asus" name="proprietary_vendor_asus_sdm660-common" remote="TheMuppets" revision="lineage-20" />
+     <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revisioion="14" />
+     <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revisioion="14" />
+
      <!-- Clang -->
-     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+     <!-- project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" /-->
 
 </manifest>
