@@ -3,14 +3,12 @@
 <manifest>
 
      <!-- Remote -->
-     <remote name="TheMuppets"
-     fetch="https://github.com/TheMuppets" />
      <remote name="Tiktodz"
      fetch="https://github.com/Tiktodz" />
-     <!-- remote name="clang"
-     fetch="https://github.com/kdrag0n" /-->
-     <remote name="crdroidandroid"
-     fetch="https://gitlab.com/crdroidandroid" />
+
+     <!-- remote name="crdroid"
+     fetch="https://gitlab.com/crdroidandroid" /-->
+
      <remote name="str"
      fetch="https://github.com/strongreasons" />
   
@@ -19,11 +17,11 @@
      
      <!-- Trees -->
      <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="14" />
-     <project path="vendor/asus" name="proprietary_vendor_asus_sdm660-common" remote="TheMuppets" revision="lineage-20" />
+     <project path="vendor/asus" name="vendor_asus" remote="str" revision="14" />
      <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revisioion="14" />
      <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revisioion="14" />
 
      <!-- Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" revision="13.0" remote="crdroid" />
+     <!-- project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r498229b" revision="13.0" remote="crdroid" /-->
 
 </manifest>
