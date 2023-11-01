@@ -15,9 +15,9 @@
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="blz" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="eas" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
-        <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="eas1" />
+        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
+        <project path="device/asus/sdm660-common" name="common_backup" remote="Tiktodz" revision="loud" />
 
         <!-- remove-project name="packages_modules_Connectivity" />
         <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="los" revision="lineage-20.0" /-->
@@ -39,8 +39,8 @@
         <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="los" revision="lineage-20.0" />
 
         <!-- Frameworks native -->
-        <!-- remove-project name="frameworks_native" />
-        <project path="frameworks/native" name="frameworks_native" remote="strongreasons" revision="13" /-->
+        <remove-project name="frameworks_native" />
+        <project path="frameworks/native" name="frameworks_native" remote="strongreasons" revision="13" />
 
         <!-- Power -->
         <remove-project name="android_vendor_qcom_opensource_power" />
