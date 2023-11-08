@@ -12,16 +12,10 @@
      <remote name="str"
      fetch="https://github.com/strongreasons" />
 
-     <remote name="derp"
-     fetch="https://github.com/DerpFest-AOSP" />
-
-     <remote name="pix"
-     fetch="https://github.com/PixysOS-Devices" />
-
      <!-- Trees -->
      <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="udc" />
      <project path="vendor/asus" name="vendor_asus" remote="str" revision="14" />
-     <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="pix" revision="thirteen" />
+     <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="str" revision="thirteen" />
      <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="str" revision="14" />
 
      <!-- Clang -->
