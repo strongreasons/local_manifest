@@ -10,12 +10,14 @@
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
+  <remote name="Kneba"
+          fetch="https://github.com/Kneba" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="rising" />
-        <project path="vendor/asus" name="android_vendor_asus" remote="Tiktodz" revision="blaze" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="13" />
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="Tiktodz" revision="blaze" />
+        <project path="device/asus/X00T" name="platform_device_asus_X00TD" remote="Kneba" revision="blaze" />
+        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="eas-13" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="codelinaro-eas" />
+        <project path="kernel/asus/sdm660/KernelSU" name="KernelSU" remote="Tiktodz" revision="main" />
 
         <!-- HALs -->
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
