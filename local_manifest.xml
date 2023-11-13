@@ -46,9 +46,9 @@
 
         <!-- Frameworks base -->
         <remove-project name="LineageOS/android_frameworks_base" />
-        <project path="frameworks/base" name="strongreasons/android_frameworks_base" remote="github" revision="lineage-17.1" />
+        <project path="frameworks/base" name="strongreasons/android_frameworks_base" remote="github" revision="base" />
 
-        <!-- Pixel experience pack -->
+        <!-- PixelExperience pack -->
         <project path="external/asus/stitchimage" name="pixelexperience/external_asus_stitchimage" remote="github" revision="ten-plus" />
 
         <!-- Sepolicy -->
@@ -57,7 +57,7 @@
 
         <!-- Settings -->
         <remove-project name="LineageOS/android_packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="lineage-17.1" />
+        <project path="packages/apps/Settings" name="strongreasons/android_packages_apps_Settings" remote="github" revision="base" />
 
         <!-- Vendor -->
         <remove-project name="LineageOS/android_vendor_lineage" />
