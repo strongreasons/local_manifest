@@ -2,16 +2,17 @@
 
 <manifest>
 
+        <!-- Remote -->
     <remote name="Kendras056"
-          fetch="https://github.com/Kendras056" />
-  <remote name="strongreasons"
-          fetch="https://github.com/strongreasons" />
+        fetch="https://github.com/Kendras056" />
+    <remote name="strongreasons"
+        fetch="https://github.com/strongreasons" />
     <remote name="Tiktodz"
-          fetch="https://github.com/Tiktodz" />
-  <remote name="ImSurajxD"
-          fetch="https://gitlab.com/ImSurajxD" />
+        fetch="https://github.com/Tiktodz" />
+    <remote name="ImSurajxD"
+        fetch="https://gitlab.com/ImSurajxD" />
     <remote name="Kneba"
-          fetch="https://github.com/Kneba" />
+        fetch="https://github.com/Kneba" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="platform_device_asus_X00TD" remote="Kneba" revision="blaze" />
@@ -27,15 +28,15 @@
         <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom-caf_msm8998_display" remote="Kendras056" revision="13" />
         <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom-caf_msm8998_media" remote="Kendras056" revision="13" />
 
-        <!-- Fwb -->
-        <!-- remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="strongreasons" revision="13.0" /-->
+        <!-- Power -->
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
+        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
 
         <!-- Toolchain Clang -->
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" clone-depth="1" />
 
-        <!-- Power -->
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_power" />
-        <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="strongreasons" revision="lineage-20.0" />
+        <!-- Vendor -->
+        <remove-project name="RisingTechOSS/android_vendor_rising" />
+        <project path="vendor/lineage" name="android_vendor_rising" remote="strongreasons" revision="thirteen" />
 
 </manifest>
