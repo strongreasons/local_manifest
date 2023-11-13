@@ -6,16 +6,16 @@
           fetch="https://github.com/Kendras056" />
   <remote name="strongreasons"
           fetch="https://github.com/strongreasons" />
-  <remote name="Tiktodz"
+    <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
   <remote name="ImSurajxD"
           fetch="https://gitlab.com/ImSurajxD" />
-  <remote name="Kneba"
+    <remote name="Kneba"
           fetch="https://github.com/Kneba" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00T" name="platform_device_asus_X00TD" remote="Kneba" revision="blaze" />
-        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="eas-13" />
+        <project path="vendor/asus" name="platform_vendor_asus" remote="Kneba" revision="13-eas" />
         <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm636" remote="Tiktodz" revision="codelinaro-eas" />
         <project path="kernel/asus/sdm660/KernelSU" name="KernelSU" remote="Tiktodz" revision="main" />
 
