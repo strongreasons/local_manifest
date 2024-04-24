@@ -14,6 +14,6 @@
         <project path="vendor/asus" name="android_vendor_asus" remote="pbd" revision="14" />
         <!-- project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="Tiktodz" revision="sdm660" />
         <project path="kernel/asus/sdm660/KernelSU" name="KernelSU" remote="Tiktodz" revision="main" /-->
-        <project path="device/asus/sdm660-common" name="common_backup" remote="pbd" revision="14" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="pbd" revision="14" />
 
 </manifest>
