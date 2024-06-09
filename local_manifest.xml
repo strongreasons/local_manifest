@@ -6,11 +6,13 @@
           fetch="https://github.com/strongreasons" />
   <remote name="Tiktodz"
           fetch="https://github.com/Tiktodz" />
+  <remote name="aslenofarid"
+          fetch="https://github.com/aslenofarid" />
 
         <!-- Sync trees -->
         <project path="device/asus/X00TD" name="device_asus_X00TD" remote="strongreasons" revision="rr" />
         <project path="vendor/asus" name="vendor_asus" remote="strongreasons" revision="17.1" />
-        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="strongreasons" revision="eas" />
+        <project path="kernel/asus/sdm660" name="android_kernel_asus_sdm660" remote="aslenofarid" revision="lineage-17.1" />
         <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="strongreasons" revision="rr" />
 
         <remove-project name="android_build" />
