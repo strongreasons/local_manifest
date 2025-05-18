@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
 
      <!-- Remote -->
      <remote name="str"
      fetch="https://github.com/strongreasons" />
-     <remote name="sbsv"
-     fetch="https://github.com/SonicBSV" />
+     <remote name="texascake"
+     fetch="https://github.com/texascake" />
 
      <!-- Trees -->
-     <project path="device/asus/X00TD" name="device_asus_X00TD" remote="str" revision="pos-15" />
-     <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="str" revision="15" />
-     <project path="vendor/asus" name="vendor_asus" remote="str" revision="15" />
+     <project path="device/asus/X00TD" name="device_asus_X00TD" remote="texascake" revision="v2" />
 
 </manifest>
